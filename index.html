@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<meta charset="utf-8">
+		<title>Jasmine Oh</title>
+		<link href="css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="MobileOptimized" content="320">
+	    <meta name="HandheldFriendly" content="True">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+
+	<!-- SMOOTH SCROLLING -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script>
+
+		$(document).ready(function() {
+			$("a").on('click', function(event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 900, function() {
+						window.location.hash = hash;
+					});
+				} 
+			});
+		});
+	</script>
+
+
+
+
+	</head>
+
+	<body>
+
+	
+			<div id="nav">
+				<ul>
+					<a href="index.html"><li class="home">JASMINE OH</li></a>
+					<a href="index.html#workk"><li class="work">WORK</li></a>
+					<a href="about.html"><li class="about">ABOUT</li></a>
+				</ul>
+			</div>
+
+
+			<div class="name">
+				<div class="width-wrapper">
+					<h1>	
+						Hey there,
+						<br>
+						I'm Jasmine Oh.
+					</h1>
+					<h2>
+						A senior at UT Austin with a passion for Human Centered Design. Currently looking for UX Research / Interaction Design job opportunities for 2018.
+					</h2>
+					<ul class="mylinks">
+						<a href="#"><li>Resume</li></a>
+						<a href="#"><li>Linkedin</li></a>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+			<div id="workk"></a>
+
+			<div class="cases-panels">
+
+
+
+			<a href="#" class="tppt">
+					<div class="cases-textbox">
+					<h1>Therapy Pet Pals of Texas</h1>
+					<h2>UI Design | Rebranding</h2>
+				</div>
+				
+			</a>
+
+			<a href="#" class="jam">
+					<div class="cases-textbox">
+					<h1>JAM</h1>
+					<h2>UX Design | Research</h2>
+				</div>
+			
+			</a>
+
+			<a href="#" class="chill">
+					<div class="cases-textbox">
+					<h1>Chill</h1>
+					<h2>UI Design | Coercion Design</h2>
+				</div>
+			</a>
+
+		</div>
+
+
+			
+
+	</body>
+
+	<footer>
+
+	</footer>
+</HTML>
