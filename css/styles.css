@@ -1,0 +1,298 @@
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: Avenir-book, 'Open Sans', sans-serif;
+  background-color:#232325;
+}
+
+a:link {
+  text-decoration: none;
+  color: #232325;
+}
+
+a:visited {
+  color: #232325;
+}
+
+a:hover {
+  color: #232325;
+}
+
+a:active {
+  color: #232325;
+}
+
+
+
+
+
+
+/* ++++++++++++++++ NAME PANEL +++++++++++++++ */
+
+.name {
+  width:100%;
+  background-color:#FAF0EA;
+  height:45em;
+}
+
+.name .width-wrapper h1 {
+  font-size:4.8em;
+  font-weight:bold;
+  line-height: 1.2em;
+}
+
+.name .width-wrapper h2 {
+  font-size:2.2em;
+  position:relative;
+  bottom:45px;
+}
+
+.name .width-wrapper h3 {
+  font-size:2em;
+  text-transform:uppercase;
+}
+
+.width-wrapper {
+  width:90%;
+  max-width:715px;
+  margin:0 auto;
+  display: block;
+  padding-top:110px;
+}
+
+ul.mylinks li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right:20px;
+  color:#ed6464;
+}
+
+ul.mylinks {
+  padding-left: 0px;
+  position:relative;
+  bottom:52px;
+  margin-top: 0px;
+}
+
+ul.mylinks a li:hover {
+  border-bottom: 1.5px solid #ed6464;
+}
+
+
+
+
+
+
+/* ++++++++++++++++ NAVIGATION +++++++++++++++ */
+
+#nav {
+  background-color:#232325;
+  position:fixed;
+  width:100%;
+  z-index:10;
+}
+
+#nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  float:right;
+  color:#FAF0EA;
+  margin: 0 37px 15px 20px;
+}
+
+#nav ul a li.work {
+  border-bottom: 1.2px solid #FAF0EA;
+}
+
+#nav ul a li.home {
+    float: left;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    position: absolute;
+}
+
+#nav ul a li.about:hover {
+border-bottom: 1.2px solid #FAF0EA;
+  }
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++ WORK PANEL +++++++++++++++ */
+
+.cases-panels a {
+  height:25em;
+  width:100%;
+  margin:0px;
+  display: inline-block;
+}
+
+a.tppt {
+  background-image: url("../images/tppt.jpg");
+  background-size:cover;
+  background-position:right;
+}
+
+a.tppt:hover, a.tppt:focus, a.tppt:active,
+a.jam:hover, a.jam:focus, a.jam:active,
+a.chill:hover, a.chill:focus, a.chill:active {
+  background-color: #232325;
+  color: #232325;
+  background-image:unset;
+}
+
+a.jam {
+  background-image: url("../images/jam.jpg");
+  background-size:cover;
+  background-position:right;
+}
+
+a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
+  padding-top:50px;
+}
+
+a.chill {
+  background-image: url("../images/chill.jpg");
+  background-size:cover;
+  background-position:right;
+}
+
+
+.cases-textbox {
+  padding:20px;
+  width:440px;
+  color:white;
+  margin:0 auto;
+}
+
+.cases-textbox h1 {
+  font-size:71px;
+  line-height:75px;
+}
+
+.cases-textbox h2 {
+  font-size:30px;
+}
+
+
+
+
+
+
+/* ++++++++++++++++ CASE STUDIES +++++++++++++++ */
+
+.casestudies {
+	width:700px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.casestudies h1 {
+    font-size: 53px;
+}
+
+.casestudies h2 {
+    font-size: 25px;
+    padding-top: 39px;
+}
+
+.casestudies h3 {
+    font-size: 34px;
+}
+
+.casestudies h3.subtitle {
+    position:relative;
+    bottom:15px;
+}
+
+.casestudies h4 {
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.casestudies p, .casestudies li {
+    font-size:19px;
+}
+
+.casestudies h5 {
+    font-style:italic;
+    font-weight:100;
+    position:relative;
+    bottom:13px;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++ MEDIA QUERIES ++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+/* ++++++++++ IPHONE 6 + LESS ++++++++ */
+
+@media (max-width: 420px) {
+
+    .width-wrapper {
+        width:338px;
+    }
+
+    .name .width-wrapper h1 {
+        font-size: 2.81em;
+    }
+
+    .name .width-wrapper h2 {
+        font-size: 1.379em;
+        padding-top:80px;
+    }
+
+    ul.mylinks {
+        margin-top:3em;
+    }
+
+    #nav ul a li.home {
+        display: block;
+        position:relative;
+        right:25px;
+        margin: 0 auto;
+    }
+
+    #nav ul li {
+        margin: 0px 16px 20px 10px;
+    }
+
+    .cases-textbox {
+        width:330px;
+        padding-top:60px;
+    }
+
+    .cases-textbox h1 {
+        font-size:54px;
+        line-height:60px;
+    }
+
+    a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
+        padding-top:10px;
+    }
+
+    .cases-textbox h2 {
+        font-size:25px;
+    }
+
+}
+
+
