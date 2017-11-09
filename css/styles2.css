@@ -1,0 +1,207 @@
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: Avenir-book, 'Open Sans', sans-serif;
+  background-color:#232325;
+}
+
+a:link {
+  text-decoration: none;
+  color: #232325;
+}
+
+a:visited {
+  color: #232325;
+}
+
+a:hover {
+  color: #232325;
+}
+
+a:active {
+  color: #232325;
+}
+
+
+
+/* ++++++++++++++++ NAVIGATION +++++++++++++++ */
+
+#nav {
+  background-color:#232325;
+  position:fixed;
+  width:100%;
+   z-index:10;
+}
+
+#nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  float:right;
+  color:#FAF0EA;
+  margin: 0 37px 15px 20px;
+}
+
+#nav ul a li.work:hover {
+  border-bottom: 1.2px solid #FAF0EA;
+}
+
+#nav ul a li.home {
+    float: left;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    position: absolute;
+}
+
+#nav ul a li.about {
+border-bottom: 1.2px solid #FAF0EA;
+  }
+
+
+
+
+
+/* ++++++++++++++++ About me PANEL +++++++++++++++ */
+
+.name {
+  width:100%;
+  background-color:#FAF0EA;
+  padding: 60px 0px 80px;
+}
+
+.name .width-wrapper h1 {
+  font-size:4.8em;
+  font-weight:bold;
+  line-height: 1.2em;
+}
+
+.name .width-wrapper h2 {
+  margin-top:20px;
+  font-size:2.2em;
+  text-align:center;
+}
+
+.name .width-wrapper h3 {
+  font-size:1em;
+  text-transform:uppercase;
+}
+
+img {
+  width:200px;
+  margin:0 auto;
+  display:block;
+}
+
+.width-wrapper {
+  width:90%;
+  max-width:715px;
+  margin:0 auto;
+  display: block;
+  padding-top:70px;
+}
+
+ul.mylinks li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right:20px;
+  color:#ed6464;
+}
+
+ul.mylinks {
+  padding-left: 0px;
+  position:relative;
+  bottom:52px;
+  margin-top: 0px;
+}
+
+ul.mylinks a li:hover {
+  border-bottom: 1.5px solid #ed6464;
+}
+
+
+
+
+
+
+
+.left, .right {
+  display:inline-block;
+
+}
+
+.left {
+  width:20%;
+  vertical-align: top;
+  font-weight:bold;
+}
+
+.right {
+  width:75%;
+}
+
+.right ul li {
+  padding-bottom:6px;
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++ MEDIA QUERIES ++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++ IPHONE 6 + LESS ++++++++ */
+
+@media (max-width: 420px) {
+
+    .width-wrapper {
+        width:338px;
+    }
+
+    .name .width-wrapper h1 {
+        font-size: 2.81em;
+    }
+
+    .name .width-wrapper h2 {
+        font-size: 1.379em;
+    }
+
+    ul.mylinks {
+        margin-top:3em;
+    }
+
+    #nav ul a li.home {
+        display: block;
+        position:relative;
+        right:25px;
+        margin: 0 auto;
+    }
+
+    #nav ul li {
+        margin: 0px 16px 20px 10px;
+    }
+
+    .cases-textbox {
+        width:330px;
+    }
+
+    .cases-textbox h1 {
+        font-size:54px;
+        line-height:60px;
+    }
+
+    a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
+        padding-top:10px;
+    }
+
+    .cases-textbox h2 {
+        font-size:25px;
+    }
+
+}
