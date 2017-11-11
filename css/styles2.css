@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   text-decoration: none;
   font-family: Avenir-book, 'Open Sans', sans-serif;
-  background-color:#232325;
+  background-color:#c76d6d;;
 }
 
 a:link {
@@ -65,7 +65,7 @@ border-bottom: 1.5px solid white;
 
 .name {
   width:100%;
-  background-color:#FAF0EA;
+  background-color:white;
   padding: 60px 0px 80px;
 }
 
@@ -79,6 +79,7 @@ border-bottom: 1.5px solid white;
   margin-top:20px;
   font-size:2.2em;
   text-align:center;
+  color: #c76d6d;
 }
 
 .name .width-wrapper h3 {
@@ -137,6 +138,7 @@ ul.mylinks a li:hover {
 
 .right {
   width:75%;
+  margin-bottom:18px;
 }
 
 .right ul li {
@@ -145,6 +147,15 @@ ul.mylinks a li:hover {
 
 .right .nobullets {
   padding:16px 0px 16px 21px;
+}
+
+.socialicons {
+    font-size: 25px;
+    color:#c76d6d;
+}
+
+.socialicons i {
+  padding:10px 10px 0 0;
 }
 
 

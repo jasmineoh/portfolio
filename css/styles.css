@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   text-decoration: none;
   font-family: Avenir-book, 'Open Sans', sans-serif;
-  background-color:#232325;
+  background-color:#c76d6d;;
 }
 
 a:link {
@@ -156,22 +156,14 @@ a.tppt {
   background-position:right;
 }
 
-a.tppt:hover, a.tppt:focus, a.tppt:active,
-a.jam:hover, a.jam:focus, a.jam:active,
-a.chill:hover, a.chill:focus, a.chill:active {
-  background-color: #FAF0EA;
-  color: #232325;
-  background-image:unset;
-}
-
 a.jam {
-  background-image: url("../images/jam.jpg");
+  background-image: url("../images/jamm.png");
   background-size:cover;
-  background-position:right;
+  background-position:70px 39%;
 }
 
 a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
-  padding-top:50px;
+  padding-top:26px;
 }
 
 a.chill {
@@ -181,24 +173,51 @@ a.chill {
 }
 
 
-.cases-textbox {
-  padding:20px;
-  width:440px;
-  color: #232325;
-  margin:0 auto;
-}
+ .cases-textbox {
+    padding:20px;
+      background: white;
+      float: left;
+      height: 90%;
+      width: 30%;
+      color: #c76d6d;
+        margin:0 auto;
+  }
 
-.cases-textbox h1 {
-  font-size:63px;
-  line-height:75px;
-}
+  .cases-textbox h1 {
+      font-size:50px;
+      line-height:56px;
+  }
 
-.cases-textbox h2 {
-  font-size:30px;
-}
+  .cases-textbox h2 {
+      font-size: 24px;
+  }
 
 .cases-panels a i {
     display:none;
+}
+  .cases-textbox h1, .cases-textbox h2 {
+    top: 20px;
+    position: relative;
+}
+
+
+  a.chill, a.tppt, a.jam {
+    margin-bottom:40px;
+  }
+
+.cases-textbox h3 {
+    position: relative;
+    top: 48px;
+    font-weight: 100;
+    font-size: 14px;
+    border: 1.4px solid;
+    width: 85px;
+    padding: 10px;
+}
+
+.cases-panels a:hover h3 {
+    background:#c76d6d;
+    color:white;
 }
 
 
@@ -260,19 +279,12 @@ a.chill {
 
 
 @media (max-width: 1025px) {
-.cases-panels a i {
-    display:block;
-    position: absolute;
-    right: 10px;
-    padding-right: 23px;
-    font-size: 56px;
-    color: white;
-    text-shadow: 2px 3px .5px darkgrey;
-}
-    .cases-textbox {
-        color:white;
-        text-shadow: 2px 3px .5px darkgrey;
-    }
+  .cases-textbox {
+      width: 50%;
+  }
+    a.tppt, a.jam {
+      background-position:top;
+  }
 }
 
 
@@ -308,27 +320,23 @@ a.chill {
         margin: 0px 16px 20px 10px;
     }
 
-    .cases-textbox {
-        width:330px;
-        padding-top:60px;
-    }
-
-    .cases-textbox h1 {
-        font-size:54px;
-        line-height:60px;
-    }
 
     a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
         padding-top:10px;
     }
 
-    .cases-textbox h2 {
-        font-size:25px;
-    }
-
     .scrollme i {
       bottom:-28px;
     }
+
+      .cases-textbox h1 {
+      font-size:30px;
+      line-height:36px;
+  }
+
+  .cases-textbox h2 {
+      font-size: 20px
+  }
 
 }
 
