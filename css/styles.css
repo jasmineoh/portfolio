@@ -33,12 +33,13 @@ a:active {
 
 .name {
   width:100%;
-  background-color:#FAF0EA;
+  background-color:#c76e6e;
   height:45em;
+  color:white;
 }
 
 .name .width-wrapper h1 {
-  font-size:4.8em;
+  font-size:4.7em;
   font-weight:bold;
   line-height: 1.2em;
 }
@@ -47,6 +48,7 @@ a:active {
   font-size:2.2em;
   position:relative;
   bottom:45px;
+  font-weight:100;
 }
 
 .name .width-wrapper h3 {
@@ -59,14 +61,16 @@ a:active {
   max-width:715px;
   margin:0 auto;
   display: block;
-  padding-top:110px;
+  padding-top:85px;
 }
 
 ul.mylinks li {
   display: inline-block;
   text-decoration: none;
   margin-right:20px;
-  color:#ed6464;
+  color: white;
+  border: 1.5px solid white;
+  padding: 10px;
 }
 
 ul.mylinks {
@@ -77,7 +81,20 @@ ul.mylinks {
 }
 
 ul.mylinks a li:hover {
-  border-bottom: 1.5px solid #ed6464;
+  background: white;
+  color: #c76e6e;
+}
+
+.scrollme {
+  text-align:center;
+}
+
+.scrollme i {
+  display: block;
+  font-size: 48px;
+  position: relative;
+  bottom:20px;
+  color:#e69797;
 }
 
 
@@ -88,7 +105,7 @@ ul.mylinks a li:hover {
 /* ++++++++++++++++ NAVIGATION +++++++++++++++ */
 
 #nav {
-  background-color:#232325;
+  background-color:#c76e6e;
   position:fixed;
   width:100%;
   z-index:10;
@@ -98,12 +115,8 @@ ul.mylinks a li:hover {
   display: inline-block;
   text-decoration: none;
   float:right;
-  color:#FAF0EA;
+  color:white;
   margin: 0 37px 15px 20px;
-}
-
-#nav ul a li.work {
-  border-bottom: 1.2px solid #FAF0EA;
 }
 
 #nav ul a li.home {
@@ -113,10 +126,11 @@ ul.mylinks a li:hover {
     font-size: 25px;
     line-height: 1;
     position: absolute;
+    color:#f5c4c4;
 }
 
-#nav ul a li.about:hover {
-border-bottom: 1.2px solid #FAF0EA;
+#nav ul a li.work, #nav ul a li.about:hover {
+border-bottom: 1.5px solid white;
   }
 
 
@@ -145,7 +159,7 @@ a.tppt {
 a.tppt:hover, a.tppt:focus, a.tppt:active,
 a.jam:hover, a.jam:focus, a.jam:active,
 a.chill:hover, a.chill:focus, a.chill:active {
-  background-color: #232325;
+  background-color: #FAF0EA;
   color: #232325;
   background-image:unset;
 }
@@ -170,18 +184,23 @@ a.chill {
 .cases-textbox {
   padding:20px;
   width:440px;
-  color:white;
+  color: #232325;
   margin:0 auto;
 }
 
 .cases-textbox h1 {
-  font-size:71px;
+  font-size:63px;
   line-height:75px;
 }
 
 .cases-textbox h2 {
   font-size:30px;
 }
+
+.cases-panels a i {
+    display:none;
+}
+
 
 
 
@@ -240,7 +259,21 @@ a.chill {
 
 
 
-
+@media (max-width: 1025px) {
+.cases-panels a i {
+    display:block;
+    position: absolute;
+    right: 10px;
+    padding-right: 23px;
+    font-size: 56px;
+    color: white;
+    text-shadow: 2px 3px .5px darkgrey;
+}
+    .cases-textbox {
+        color:white;
+        text-shadow: 2px 3px .5px darkgrey;
+    }
+}
 
 
 /* ++++++++++ IPHONE 6 + LESS ++++++++ */
@@ -291,6 +324,10 @@ a.chill {
 
     .cases-textbox h2 {
         font-size:25px;
+    }
+
+    .scrollme i {
+      bottom:-28px;
     }
 
 }

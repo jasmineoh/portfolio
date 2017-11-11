@@ -29,7 +29,7 @@ a:active {
 /* ++++++++++++++++ NAVIGATION +++++++++++++++ */
 
 #nav {
-  background-color:#232325;
+  background-color:#c76e6e;
   position:fixed;
   width:100%;
    z-index:10;
@@ -39,12 +39,8 @@ a:active {
   display: inline-block;
   text-decoration: none;
   float:right;
-  color:#FAF0EA;
+  color:white;
   margin: 0 37px 15px 20px;
-}
-
-#nav ul a li.work:hover {
-  border-bottom: 1.2px solid #FAF0EA;
 }
 
 #nav ul a li.home {
@@ -54,10 +50,11 @@ a:active {
     font-size: 25px;
     line-height: 1;
     position: absolute;
+    color:#f5c4c4;
 }
 
-#nav ul a li.about {
-border-bottom: 1.2px solid #FAF0EA;
+#nav ul a li.about, #nav ul a li.work:hover  {
+border-bottom: 1.5px solid white;
   }
 
 
@@ -146,6 +143,10 @@ ul.mylinks a li:hover {
   padding-bottom:6px;
 }
 
+.right .nobullets {
+  padding:16px 0px 16px 21px;
+}
+
 
 
 
@@ -169,7 +170,7 @@ ul.mylinks a li:hover {
     }
 
     .name .width-wrapper h2 {
-        font-size: 1.379em;
+        font-size: 25px;
     }
 
     ul.mylinks {
@@ -203,5 +204,21 @@ ul.mylinks a li:hover {
     .cases-textbox h2 {
         font-size:25px;
     }
+
+    .left, .right {
+    display: block;
+    width: 100%;
+    font-size:17px;
+   }
+
+   .right ul {
+    padding-top:12px;
+    position:relative;
+    right:15px;
+   }
+
+   .right .nobullets {
+    padding: 16px 0px 16px 0px;
+}
 
 }
