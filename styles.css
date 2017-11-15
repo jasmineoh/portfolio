@@ -1,0 +1,357 @@
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: Avenir-book, 'Open Sans', sans-serif;
+  background-color:#ffb57f;
+}
+
+a:link {
+  text-decoration: none;
+  color: #232325;
+}
+
+a:visited {
+  color: #232325;
+}
+
+a:hover {
+  color: #232325;
+}
+
+a:active {
+  color: #232325;
+}
+
+
+
+.construction {
+  margin-top:80px;
+  text-align:center;
+  color:white;
+  padding: 0px 15px;
+}
+
+.construction p a:link, .construction p a:visited, .construction p a:active {
+  color:white;
+  text-decoration: underline;
+}
+
+.construction p a:hover {
+  color:#bb6969;
+}
+
+
+/* ++++++++++++++++ NAME PANEL +++++++++++++++ */
+
+.name {
+  width:100%;
+  background-color:#c76e6e;
+  height:45em;
+  color:white;
+}
+
+.name .width-wrapper h1 {
+  font-size:4.7em;
+  font-weight:bold;
+  line-height: 1.2em;
+}
+
+.name .width-wrapper h2 {
+  font-size:2.2em;
+  position:relative;
+  bottom:45px;
+  font-weight:100;
+}
+
+.name .width-wrapper h3 {
+  font-size:2em;
+  text-transform:uppercase;
+}
+
+.width-wrapper {
+  width:90%;
+  max-width:715px;
+  margin:0 auto;
+  display: block;
+  padding-top:85px;
+}
+
+ul.mylinks li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right:20px;
+  color: white;
+  border: 1.5px solid white;
+  padding: 10px;
+}
+
+ul.mylinks {
+  padding-left: 0px;
+  position:relative;
+  bottom:52px;
+  margin-top: 0px;
+}
+
+ul.mylinks a li:hover {
+  background: white;
+  color: #c76e6e;
+}
+
+.scrollme {
+  text-align:center;
+}
+
+.scrollme i {
+  display: block;
+  font-size: 48px;
+  position: relative;
+  bottom:20px;
+  color:#e69797;
+}
+
+
+
+
+
+
+/* ++++++++++++++++ NAVIGATION +++++++++++++++ */
+
+#nav {
+  background-color:#c76e6e;
+  position:fixed;
+  width:100%;
+  z-index:10;
+}
+
+#nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  float:right;
+  color:white;
+  margin: 0 37px 15px 20px;
+}
+
+#nav ul a li.home {
+    float: left;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    position: absolute;
+    color:#f5c4c4;
+}
+
+#nav ul a li.work, #nav ul a li.about:hover {
+border-bottom: 1.5px solid white;
+  }
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++ WORK PANEL +++++++++++++++ */
+
+.cases-panels a {
+  height:25em;
+  width:100%;
+  margin:0px;
+  display: inline-block;
+}
+
+a.tppt {
+  background-image: url("../images/tppt.jpg");
+  background-size:cover;
+  background-position:right;
+}
+
+a.jam {
+  background-image: url("../images/jamm.png");
+  background-size:cover;
+  background-position:70px 39%;
+}
+
+a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
+  padding-top:26px;
+}
+
+a.chill {
+  background-image: url("../images/chill.jpg");
+  background-size:cover;
+  background-position:right;
+}
+
+
+ .cases-textbox {
+    padding:20px;
+      background: white;
+      float: left;
+      height: 90%;
+      width: 30%;
+      color: #c76d6d;
+        margin:0 auto;
+  }
+
+  .cases-textbox h1 {
+      font-size:50px;
+      line-height:56px;
+  }
+
+  .cases-textbox h2 {
+      font-size: 24px;
+  }
+
+.cases-panels a i {
+    display:none;
+}
+  .cases-textbox h1, .cases-textbox h2 {
+    top: 20px;
+    position: relative;
+}
+
+
+  a.chill, a.tppt, a.jam {
+    margin-bottom:40px;
+  }
+
+.cases-textbox h3 {
+    position: relative;
+    top: 48px;
+    font-weight: 100;
+    font-size: 14px;
+    border: 1.4px solid;
+    width: 85px;
+    padding: 10px;
+}
+
+.cases-panels a:hover h3 {
+    background:#c76d6d;
+    color:white;
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++ CASE STUDIES +++++++++++++++ */
+
+.casestudies {
+	width:700px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.casestudies h1 {
+    font-size: 53px;
+}
+
+.casestudies h2 {
+    font-size: 25px;
+    padding-top: 39px;
+}
+
+.casestudies h3 {
+    font-size: 34px;
+}
+
+.casestudies h3.subtitle {
+    position:relative;
+    bottom:15px;
+}
+
+.casestudies h4 {
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.casestudies p, .casestudies li {
+    font-size:19px;
+}
+
+.casestudies h5 {
+    font-style:italic;
+    font-weight:100;
+    position:relative;
+    bottom:13px;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++ MEDIA QUERIES ++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+@media (max-width: 1025px) {
+  .cases-textbox {
+      width: 50%;
+  }
+    a.tppt, a.jam {
+      background-position:top;
+  }
+}
+
+
+/* ++++++++++ IPHONE 6 + LESS ++++++++ */
+
+@media (max-width: 420px) {
+
+    .width-wrapper {
+        width:338px;
+    }
+
+    .name .width-wrapper h1 {
+        font-size: 2.7em;
+    }
+
+    .name .width-wrapper h2 {
+        font-size: 1.379em;
+        padding-top:80px;
+    }
+
+    ul.mylinks {
+        margin-top:3em;
+    }
+
+    #nav ul a li.home {
+        display: block;
+        position:relative;
+        right:25px;
+        margin: 0 auto;
+    }
+
+    #nav ul li {
+        margin: 0px 16px 20px 10px;
+    }
+
+
+    a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
+        padding-top:10px;
+    }
+
+    .scrollme i {
+      bottom:-28px;
+    }
+
+      .cases-textbox h1 {
+      font-size:30px;
+      line-height:36px;
+  }
+
+  .cases-textbox h2 {
+      font-size: 20px
+  }
+
+}
+
+
