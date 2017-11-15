@@ -310,7 +310,7 @@ border-bottom: 1.5px solid white;
       bottom:-60px;
     }
 
-    .workbuttons {
+    .workbuttons.hvr-float {
       display: block;
     box-shadow: 0px 7px 23.5px #cc8b5a;
     width: 84%;
