@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   text-decoration: none;
   font-family: Avenir-book, 'Open Sans', sans-serif;
-  background-color:#c76d6d;;
+  background-color:#ffb57f;
 }
 
 a:link {
@@ -29,10 +29,17 @@ a:active {
 .construction {
   margin-top:80px;
   text-align:center;
+  color:white;
+  padding: 0px 15px;
 }
 
-.construction h1{
-  
+.construction p a:link, .construction p a:visited, .construction p a:active {
+  color:white;
+  text-decoration: underline;
+}
+
+.construction p a:hover {
+  color:#bb6969;
 }
 
 
