@@ -25,6 +25,66 @@ a:active {
 }
 
 
+/* ++++++++++++++++ WORK BUTTONS PANEL +++++++++++++++ */
+
+.cases-panels {
+    padding-bottom: 100px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1343px;
+}
+
+.workbuttons.hvr-float {
+  display:inline-block;
+  background:white;
+  border-radius: 15px;
+  box-shadow: 0px 7px 23.5px #cc8b5a;
+  width: 30%;
+  max-width:400px;
+  height: 400px;
+  margin: 80px 0 0 2.5%;
+  vertical-align:bottom;
+}
+
+.workbuttons.hvr-float:hover {
+  box-shadow:unset;
+  color:#ffb57f;
+}
+
+.casetextbox {
+  padding:30px 15px 15px 15px;
+  line-height:38px;
+}
+
+.casetextbox.tppt {
+    padding:10px 15px 15px 15px;
+  }
+
+.casetextbox img {
+    width: 91%;
+    margin: 0 auto;
+    display: block;
+}
+
+.casetextbox img.imgdown {
+  padding-top:19px;
+}
+
+.casetextbox img.chill.imgdown {
+  width:70%;
+}
+
+.workbuttons .casetextbox {
+    color: #f5a66c;
+    text-align: center;
+}
+
+
+
+
+/* ++++++++++++++++ CONSTRUCTION PANEL +++++++++++++++ */
 
 .construction {
   margin-top:250px;
@@ -47,7 +107,7 @@ a:active {
 
 .name {
   width:100%;
-  background-color:#c76e6e;
+  background-color:#ffb57f;
   height:45em;
   color:white;
 }
@@ -78,25 +138,26 @@ a:active {
   padding-top:85px;
 }
 
-ul.mylinks li {
+ul.resumelinkedin li {
   display: inline-block;
   text-decoration: none;
   margin-right:20px;
   color: white;
   border: 1.5px solid white;
-  padding: 10px;
+      padding: 10px 20px;
+    border-radius: 25px;
 }
 
-ul.mylinks {
+ul.resumelinkedin {
   padding-left: 0px;
   position:relative;
   bottom:52px;
   margin-top: 0px;
 }
 
-ul.mylinks a li:hover {
+ul.resumelinkedin a li:hover {
   background: white;
-  color: #c76e6e;
+  color: #ffb57f;
 }
 
 .scrollme {
@@ -108,7 +169,7 @@ ul.mylinks a li:hover {
   font-size: 48px;
   position: relative;
   bottom:20px;
-  color:#e69797;
+  color:#ffd2b0;
 }
 
 
@@ -119,7 +180,7 @@ ul.mylinks a li:hover {
 /* ++++++++++++++++ NAVIGATION +++++++++++++++ */
 
 #nav {
-  background-color:#c76e6e;
+  background-color:#ffb57f;
   position:fixed;
   width:100%;
   z-index:10;
@@ -140,7 +201,6 @@ ul.mylinks a li:hover {
     font-size: 25px;
     line-height: 1;
     position: absolute;
-    color:#f5c4c4;
 }
 
 #nav ul a li.work, #nav ul a li.about:hover {
@@ -148,91 +208,6 @@ border-bottom: 1.5px solid white;
   }
 
 
-
-
-
-
-
-
-
-/* ++++++++++++++++ WORK PANEL +++++++++++++++ */
-
-.cases-panels a {
-  height:25em;
-  width:100%;
-  margin:0px;
-  display: inline-block;
-}
-
-a.tppt {
-  background-image: url("../images/tppt.jpg");
-  background-size:cover;
-  background-position:right;
-}
-
-a.jam {
-  background-image: url("../images/jamm.png");
-  background-size:cover;
-  background-position:70px 39%;
-}
-
-a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
-  padding-top:26px;
-}
-
-a.chill {
-  background-image: url("../images/chill.jpg");
-  background-size:cover;
-  background-position:right;
-}
-
-
- .cases-textbox {
-    padding:20px;
-      background: white;
-      float: left;
-      height: 90%;
-      width: 30%;
-      color: #c76d6d;
-        margin:0 auto;
-  }
-
-  .cases-textbox h1 {
-      font-size:50px;
-      line-height:56px;
-  }
-
-  .cases-textbox h2 {
-      font-size: 24px;
-  }
-
-.cases-panels a i {
-    display:none;
-}
-  .cases-textbox h1, .cases-textbox h2 {
-    top: 20px;
-    position: relative;
-}
-
-
-  a.chill, a.tppt, a.jam {
-    margin-bottom:40px;
-  }
-
-.cases-textbox h3 {
-    position: relative;
-    top: 48px;
-    font-weight: 100;
-    font-size: 14px;
-    border: 1.4px solid;
-    width: 85px;
-    padding: 10px;
-}
-
-.cases-panels a:hover h3 {
-    background:#c76d6d;
-    color:white;
-}
 
 
 
@@ -293,12 +268,7 @@ a.chill {
 
 
 @media (max-width: 1025px) {
-  .cases-textbox {
-      width: 50%;
-  }
-    a.tppt, a.jam {
-      background-position:top;
-  }
+
 }
 
 
@@ -312,15 +282,16 @@ a.chill {
 
     .name .width-wrapper h1 {
         font-size: 2.7em;
+        margin-top:72px;
     }
 
     .name .width-wrapper h2 {
         font-size: 1.379em;
-        padding-top:80px;
+        padding-top:29px;
     }
 
-    ul.mylinks {
-        margin-top:3em;
+    ul.resumelinkedin {
+        margin-top:2em;
     }
 
     #nav ul a li.home {
@@ -335,22 +306,20 @@ a.chill {
     }
 
 
-    a.jam .cases-textbox h1, a.chill .cases-textbox h1 {
-        padding-top:10px;
-    }
-
     .scrollme i {
-      bottom:-28px;
+      bottom:-60px;
     }
 
-      .cases-textbox h1 {
-      font-size:30px;
-      line-height:36px;
-  }
+    .workbuttons {
+      display: block;
+    box-shadow: 0px 7px 23.5px #cc8b5a;
+    width: 84%;
+    max-width: 400px;
+    height: 386px;
+    margin: 42px 8%;
+}
 
-  .cases-textbox h2 {
-      font-size: 20px
-  }
+
 
 }
 

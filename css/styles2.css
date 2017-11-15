@@ -4,13 +4,14 @@ body {
   margin: 0 auto;
   text-decoration: none;
   font-family: Avenir-book, 'Open Sans', sans-serif;
-  background-color:#c76d6d;;
+  background-color:#ffb57f;
 }
 
 a:link {
   text-decoration: none;
   color: #232325;
 }
+
 
 a:visited {
   color: #232325;
@@ -29,7 +30,7 @@ a:active {
 /* ++++++++++++++++ NAVIGATION +++++++++++++++ */
 
 #nav {
-  background-color:#c76e6e;
+  background-color:#ffb57f;
   position:fixed;
   width:100%;
    z-index:10;
@@ -50,7 +51,6 @@ a:active {
     font-size: 25px;
     line-height: 1;
     position: absolute;
-    color:#f5c4c4;
 }
 
 #nav ul a li.about, #nav ul a li.work:hover  {
@@ -79,7 +79,7 @@ border-bottom: 1.5px solid white;
   margin-top:20px;
   font-size:2.2em;
   text-align:center;
-  color: #c76d6d;
+  color: #ffb57f;
 }
 
 .name .width-wrapper h3 {
@@ -119,6 +119,37 @@ ul.mylinks a li:hover {
   border-bottom: 1.5px solid #ed6464;
 }
 
+ul.resumelinkedin li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right:20px;
+  color: #ffb57f;
+  border: 1.5px solid #ffb57f;
+      padding: 10px 20px;
+    border-radius: 25px;
+}
+
+ul.resumelinkedin {
+  padding-left: 0px;
+  position:relative;
+  bottom:52px;
+  margin-top: 10px;
+}
+
+ul.resumelinkedin a li:hover {
+  background: #ffb57f;
+  color: white;
+}
+
+.resumelinkedin-holder {
+      width: 247px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    left: 13px;
+    padding-top: 20px;
+}
+
 
 
 
@@ -149,9 +180,20 @@ ul.mylinks a li:hover {
   padding:16px 0px 16px 21px;
 }
 
+.right a:link, .right a:visited, .right a:active {
+  color:#fb8d3c;
+  text-decoration: underline;
+}
+
+.right a:hover {
+  text-decoration: unset;
+}
+
+
+
 .socialicons {
     font-size: 25px;
-    color:#c76d6d;
+    color:#ffb57f;
 }
 
 .socialicons i {
