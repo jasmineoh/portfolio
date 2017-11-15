@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<meta charset="utf-8">
+		<title>Jasmine Oh</title>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/hover.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="MobileOptimized" content="320">
+	    <meta name="HandheldFriendly" content="True">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+
+	<!-- SMOOTH SCROLLING -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script>
+
+		$(document).ready(function() {
+			$("a").on('click', function(event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 900, function() {
+						window.location.hash = hash;
+					});
+				} 
+			});
+		});
+	</script>
+
+
+
+
+	</head>
+
+	<body>
+<div class="construction">
+<h2>Hi, my name is Jasmine Oh.</h2>
+<p>My portfolio is going through some changes right now - please check back later. :)
+<br>In the meanwhile, check out my <a href="https://www.linkedin.com/in/ohjasmine/">linkedin</a> or <a href="https://www.jasmineohphotography.com">photography page</a>!
+</div>
+
+
+	</body>
