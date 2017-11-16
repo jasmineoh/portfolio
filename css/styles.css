@@ -215,47 +215,6 @@ border-bottom: 1.5px solid white;
 
 
 
-/* ++++++++++++++++ CASE STUDIES +++++++++++++++ */
-
-.casestudies {
-	width:700px;
-	margin:0 auto;
-	padding-top:20px;
-}
-
-.casestudies h1 {
-    font-size: 53px;
-}
-
-.casestudies h2 {
-    font-size: 25px;
-    padding-top: 39px;
-}
-
-.casestudies h3 {
-    font-size: 34px;
-}
-
-.casestudies h3.subtitle {
-    position:relative;
-    bottom:15px;
-}
-
-.casestudies h4 {
-    font-size: 14px;
-    text-transform:uppercase;
-}
-
-.casestudies p, .casestudies li {
-    font-size:19px;
-}
-
-.casestudies h5 {
-    font-style:italic;
-    font-weight:100;
-    position:relative;
-    bottom:13px;
-}
 
 
 

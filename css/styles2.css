@@ -203,6 +203,102 @@ ul.resumelinkedin a li:hover {
 
 
 
+/* ++++++++++++++++ CASE STUDIES +++++++++++++++ */
+
+.casestudies {
+  margin:0 auto;
+  padding-top:20px;
+}
+
+.name .width-wrapper .casestudies img.casestudies-head {
+padding:unset;
+width:70%;
+}
+
+.name .width-wrapper .casestudies h1 {
+  font-size:3.8em;
+  text-align: center;
+  margin-bottom:0px;
+}
+
+.name .width-wrapper .casestudies h2 {
+  font-size:24px;
+  text-align: left;
+  margin-top:50px;
+}
+
+.name .width-wrapper .casestudies h3 {
+  font-size:15px;
+  text-align: center;
+  font-weight:100;
+}
+
+.name .width-wrapper .casestudies h5 {
+  text-align: center;
+}
+
+.name .width-wrapper .casestudies img {
+  width:100%;
+  padding:20px 0;
+}
+
+#outside {
+  padding:20px 0;
+  width: 160%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    right: 28%;
+}
+#outside img {
+  display:inline-block;
+  width:46%;
+  margin-left:20px;
+}
+
+#problemstatement-whole {
+  padding:20px 0;
+}
+
+.name .width-wrapper .casestudies .problemstatement-left {
+  width:150px;
+  display:inline-block;
+  border-right: 2px solid grey;
+
+}
+
+.name .width-wrapper .casestudies .problemstatement-left {
+
+}
+
+.name .width-wrapper .casestudies .problemstatement-right {
+  display:inline-block;
+  width: 60%;
+  margin-left:30px;
+
+}
+
+img.wholefooter {
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++++++++++++++++++++++++++
 ++++++++++++ MEDIA QUERIES ++++++++++++++++++++++
