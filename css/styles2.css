@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 
 body {
   width: 100%;
   margin: 0 auto;
   text-decoration: none;
-  font-family: Avenir-book, 'Open Sans', sans-serif;
+  font-family: Avenir-book, 'Nunito', sans-serif;
   background-color:#ffb57f;
 }
 
@@ -98,7 +100,6 @@ img {
   max-width:715px;
   margin:0 auto;
   display: block;
-  padding-top:70px;
 }
 
 ul.mylinks li {
@@ -125,7 +126,7 @@ ul.resumelinkedin li {
   margin-right:20px;
   color: #ffb57f;
   border: 1.5px solid #ffb57f;
-      padding: 10px 20px;
+      padding: 10px 19px;
     border-radius: 25px;
 }
 
@@ -210,9 +211,52 @@ ul.resumelinkedin a li:hover {
   padding-top:20px;
 }
 
+.side-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 168px;
+    font-size: 14px;
+    color: grey;
+}
+
+.side-info ul li {
+    list-style: none;
+}
+
+.side-info ul li a {
+  color:#91adec;
+}
+
+.side-info ul li a:hover {
+  text-decoration: underline;
+}
+
+.side-info ul a li {
+    background: #91adec;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    width: 128px;
+    height: 18px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: 0px 3px 0px #6981b9;
+}
+
+.side-info ul a li:hover {
+  box-shadow:unset;
+  position:relative;
+  top:2px;
+}
+
+
+
 .name .width-wrapper .casestudies img.casestudies-head {
 padding:unset;
 width:70%;
+margin-top: 84px;
 }
 
 .name .width-wrapper .casestudies h1 {
@@ -242,18 +286,21 @@ width:70%;
   padding:20px 0;
 }
 
-#outside {
-  padding:20px 0;
-  width: 160%;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-    right: 28%;
+.outside-two, .outside-one {
+  padding-top:40px;
+  margin: 0 auto;
+  display: block;
+  text-align:center;
 }
-#outside img {
+.outside-two img {
   display:inline-block;
   width:46%;
-  margin-left:20px;
+  padding:20px;
+}
+
+.outside-one img {
+  width:92%;
+  padding: 10px 0px;
 }
 
 #problemstatement-whole {
@@ -369,5 +416,24 @@ img.wholefooter {
    .right .nobullets {
     padding: 16px 0px 16px 0px;
 }
+
+    .side-info {
+        position:unset;
+        padding-top:unset;
+        font-size: 16px;
+        background:#f5f5f5;
+        padding:20px 0px;
+        width:100%;
+        border-radius: 20px;
+        margin-top:10px;
+    }
+
+    .name .width-wrapper .casestudies img.casestudies-head {
+        width:100%;
+    }
+
+    .outside-two img {
+        width:90%;
+    }
 
 }
