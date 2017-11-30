@@ -440,4 +440,24 @@ img.wholefooter {
         width:89%;
     }
 
+    .name .width-wrapper .casestudies .problemstatement-right {
+    width:65%;
+    margin-left:41px;
+    position:relative;
+    top:10px;
+    border-left: 2px solid grey;
+    padding-left:20px
+
+}
+
+.name .width-wrapper .casestudies .problemstatement-left {
+    width:50px;
+    border-right: unset;
+    padding-bottom:30px;
+} 
+
+.name .width-wrapper .casestudies .problemstatement-left h3 {
+    font-size:13px;
+}
+
 }
