@@ -89,6 +89,10 @@ border-bottom: 1.5px solid white;
   text-transform:uppercase;
 }
 
+img.profilepic {
+  margin-top:70px;
+}
+
 img {
   width:200px;
   margin:0 auto;
