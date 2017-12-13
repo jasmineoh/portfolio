@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
 
 body {
   width: 100%;
   margin: 0 auto;
   text-decoration: none;
-  font-family: Avenir-book, 'Open Sans', sans-serif;
+  font-family: Avenir-book, 'Nunito', sans-serif;
   background-color:#ffb57f;
 }
 
@@ -87,10 +90,11 @@ a:active {
 /* ++++++++++++++++ CONSTRUCTION PANEL +++++++++++++++ */
 
 .construction {
-  margin-top:250px;
-  text-align:center;
-  color:white;
-  padding: 0px 15px;
+    text-align: center;
+    color: white;
+    padding: 250px 15px 0px 15px;
+    max-width: 530px;
+    margin: 0 auto;
 }
 
 .construction p a:link, .construction p a:visited, .construction p a:active {

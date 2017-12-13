@@ -216,20 +216,30 @@ ul.resumelinkedin a li:hover {
 }
 
 .side-info {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-top: 168px;
+    background: #f5f5f5;
+    padding: 17px 0px;
+    width: 254px;
+    border-radius: 20px;
+    margin-top: 10px;
     font-size: 14px;
     color: grey;
-}
+    margin: 136px 0 0 30px;
+    position:absolute;
+    top:0;
+    left:0;
+    }
 
 .side-info ul li {
     list-style: none;
 }
 
+.side-info ul {
+    padding-left: 19px;
+}
+
 .side-info ul li a {
   color:#91adec;
+
 }
 
 .side-info ul li a:hover {
@@ -255,6 +265,10 @@ ul.resumelinkedin a li:hover {
   top:2px;
 }
 
+.side-info ul a.appdemo_btn {
+  position:relative;
+  left:30px;
+}
 
 
 .name .width-wrapper .casestudies img.casestudies-head {
@@ -267,6 +281,10 @@ margin-top: 84px;
   font-size:3.8em;
   text-align: center;
   margin-bottom:0px;
+}
+
+.name .width-wrapper .casestudies h1.tppthead {
+  font-size: 3em;
 }
 
 .name .width-wrapper .casestudies h2 {
@@ -331,6 +349,54 @@ margin-top: 84px;
 
 img.wholefooter {
   width:100%;
+}
+
+p.indent {
+  width: 90%;
+  position: relative;
+  left: 8%;
+}
+
+ul.bulletless li {
+  list-style-type: none;
+}
+
+ul.bullets li {
+  list-style-type: unset;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 21px;
+  padding-top:62px;
+}
+
+h6 {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 14px;
+}
+
+hr {
+  width: 60%;
+}
+
+img.gif {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 73% !important;
+  margin-top: 50px !important;
+}
+
+p.captioning {
+  font-size: 12px;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 14px;
+    text-align:center;
 }
 
 
@@ -421,16 +487,6 @@ img.wholefooter {
     padding: 16px 0px 16px 0px;
 }
 
-    .side-info {
-        position:unset;
-        padding-top:unset;
-        font-size: 16px;
-        background:#f5f5f5;
-        padding:20px 0px;
-        width:100%;
-        border-radius: 20px;
-        margin-top:10px;
-    }
 
     .name .width-wrapper .casestudies img.casestudies-head {
         width:100%;
@@ -459,5 +515,39 @@ img.wholefooter {
 .name .width-wrapper .casestudies .problemstatement-left h3 {
     font-size:13px;
 }
+
+.side-info {
+        position:unset;
+        padding-top:unset;
+        font-size: 16px;
+        padding:20px 0px;
+        width:100%;
+        margin-top:10px;
+        margin:unset;
+    }
+
+    .side-info ul {
+    padding-left: 43px;
+}
+
+.side-info ul a li {
+  margin: 0 auto;
+}
+
+.side-info ul a.appdemo_btn {
+  position:relative;
+  right: 22px;
+  left:unset;
+}
+
+.name .width-wrapper .casestudies h1.tppthead {
+  font-size: 27px;
+  padding-top:23px;
+  }
+
+img.gif {
+  width: 100% !important;
+}
+
 
 }
